@@ -8,7 +8,11 @@ Esta es una herramienta simple en Python que realiza un ataque de "spray" contra
 
 ## Uso
 
- Ejecuta el programa con Python y proporciona la dirección IP o nombre del servidor RDP al que deseas realizar intentos de inicio de sesión.
+Ejecuta el script Generator.py
+
+El script generará nombres de usuario y contraseñas aleatorios y los guardará en los archivos `users.txt` y `passwords.txt`. Puedes ajustar la cantidad y complejidad de las credenciales generadas modificando el código fuente.
+
+Luego ejecuta el programa con Python y proporciona la dirección IP o nombre del servidor RDP al que deseas realizar intentos de inicio de sesión.
 
 Ejemplo:
 
