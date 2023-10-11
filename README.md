@@ -12,6 +12,8 @@ Ejecuta el script Generator.py
 
 El script generará nombres de usuario y contraseñas aleatorios y los guardará en los archivos `users.txt` y `passwords.txt`. Puedes ajustar la cantidad y complejidad de las credenciales generadas modificando el código fuente.
 
+RDP
+
 Luego ejecuta el programa con Python y proporciona la dirección IP o nombre del servidor RDP al que deseas realizar intentos de inicio de sesión.
 
 Ejemplo:
@@ -19,6 +21,16 @@ Ejemplo:
 python rdp_spray.py --target {IP}
 
 Reemplaza `{IP}` con la dirección IP o nombre del servidor RDP de destino.
+
+A medida que el programa se ejecuta, verás los resultados en la terminal. La herramienta intentará iniciar sesión con todas las combinaciones de usuario y contraseña en `users.txt` y `passwords.txt`.
+
+OWA
+
+Ejecuta el programa con Python y proporciona la URL del servidor OWA al que deseas realizar intentos de inicio de sesión.
+
+Ejemplo:
+
+python owa_spray.py --url https://owa.example.com
 
 A medida que el programa se ejecuta, verás los resultados en la terminal. La herramienta intentará iniciar sesión con todas las combinaciones de usuario y contraseña en `users.txt` y `passwords.txt`.
 
