@@ -15,17 +15,17 @@ Esta es una herramienta simple en Python que realiza un ataque de "spray" contra
 
 - Ejemplo:
 
-`python rdp_spray.py --target {IP}`
+- `python rdp_spray.py --target {IP}`
 
 - Reemplaza `{IP}` con la dirección IP o nombre del servidor RDP de destino.
 
 - A medida que el programa se ejecuta, verás los resultados en la terminal. La herramienta intentará iniciar sesión con todas las combinaciones de usuario y contraseña en `users.txt` y `passwords.txt`.
 
-OWA
+## OWA
 
 - Ejecuta el programa con Python y proporciona la URL del servidor OWA al que deseas realizar intentos de inicio de sesión.
 
-Ejemplo:
+- Ejemplo:
 
 - `python owa_spray.py --url https://owa.example.com`
 
